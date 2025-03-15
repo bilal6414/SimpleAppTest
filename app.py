@@ -24,7 +24,7 @@ def check_for_updates(current_version):
 def main():
     current_version = get_version()
     root = tk.Tk()
-    root.title(f"Simple App - v{current_version}")
+    root.title(f"Simple App updated - v{current_version}")
 
     # Main label with app version
     label = tk.Label(root, text=f"Welcome to SimpleApp! Version: {current_version}", padx=20, pady=20)
